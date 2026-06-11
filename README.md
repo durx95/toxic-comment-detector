@@ -71,6 +71,7 @@ After downloading:
 
 ```bash
 uvicorn app.main:app --reload
+```
 
 ---
 
