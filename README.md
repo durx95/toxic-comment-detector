@@ -4,6 +4,12 @@ A production-ready machine learning web application that detects toxic comments 
 
 ---
 
+## Live  Demo
+
+https://toxic-comment-detector-knns.onrender.com
+
+---
+
 ## 🚀 Features
 
 - 🔍 Detect toxic vs non-toxic comments
@@ -64,8 +70,10 @@ After downloading:
 ## ▶️ Run Locally
 
 ```bash
-# Step 1
-cd backend
-
-# Step 2
 uvicorn app.main:app --reload
+
+---
+
+## 🤝 Author
+
+Durgesh Maurya
