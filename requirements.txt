@@ -26,8 +26,7 @@ scipy==1.15.3
 six==1.17.0
 starlette==1.2.1
 threadpoolctl==3.6.0
-# Editable install with no version control (toxic-comment-detector==0.0.1)
--e e:\programming\end to end projects\toxic-comment-detector
+
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 tzdata==2026.2
