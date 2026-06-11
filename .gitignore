@@ -1,0 +1,53 @@
+# 🔹 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Virtual Environment
+venv/
+
+
+# 🔹 Environment variables (SECRET)
+.env
+
+# 🔹 ML artifacts (OPTIONAL - read below)
+# artifacts/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE files
+.vscode/
+.idea/
+
+# 🔹 Logs
+*.log
+
+# 🔹 Temporary files
+*.tmp
+*.swp
+
+# 🔹 Jupyter
+.ipynb_checkpoints/
+
+# 🔹 Testing / coverage
+.coverage
+htmlcov/
+
+# 🔹 Build files
+dist/
+build/
+*.egg-info/
+
+# 🔹 Node (frontend future proof)
+node_modules/
+
+# 🔹 Data files (IMPORTANT)
+data/raw/
+data/processed/
+
+*.csv
+*.tsv
+*.zip

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxic Comment Detector</title>
+    <link rel="stylesheet" href="\static\css\styles.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="card">
+        <h1>🧠 Toxic Comment Detector</h1>
+        <p class="subtitle">Check whether a comment is toxic using AI</p>
+
+        <textarea id="textInput" placeholder="Type your comment here..."></textarea>
+
+        <button id="predictBtn" onclick="predict()">Analyze</button>
+
+        <div id="loader" class="loader hidden"></div>
+
+        <div id="resultBox" class="result hidden">
+            <p id="resultText"></p>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
